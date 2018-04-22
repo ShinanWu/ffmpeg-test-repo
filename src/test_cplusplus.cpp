@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-typedef enum {UNKNOW,INITING,INITED,RESUMING,RESUMED,PAUSING,PAUSED,EXITING,EXITED} _status;
+typedef enum {UNKNOW,INITING,INITED,RESUMING,RESUMED,PAUSING,PAUSED,EXITING,EXITED,INVALID} _status;
 class BaseApp
 {
 protected:
